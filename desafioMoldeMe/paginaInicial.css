@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&display=swap");
+
+.container_header {
+  top: 0;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container_body_header {
+  display: flex;
+  margin: 2rem 1rem;
+}
+
+.container_body_header_items {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem;
+}
+
+.container_body_header_buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+body {
+  background-image: url("imagens/fundoPrincipal.png");
+  top: 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+#img1_logoHeader {
+  width: 180px;
+  margin-right: 20px;
+}
+
+#buttonLogin {
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 40px;
+  border-radius: 0;
+  background-color: white;
+  border: 1px solid;
+  border-color: rgb(182, 182, 182);
+  color: rgb(182, 182, 182);
+  font-family: "Montserrat", sans-serif;
+}
+
+#buttonTest {
+  padding-right: 15px;
+  padding-left: 15px;
+  height: 40px;
+  border-radius: 0;
+  background-color: rgb(218, 156, 0);
+  border: 0;
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+}
+
+#fullbody{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#showMessage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-left: 25%;
+    margin-top: 200px;
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    border-radius: 2px;
+    gap: 30px;
+}
+
+#underTitle{
+    width: 450px;
+    justify-content: space-around;
+}
+
+#vagas{
+    margin-top: 20px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+#categorias{
+    color: white;
+    width: 900px;
+    font-size: 10pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.empty{
+    width: 1000px;
+    height: 7px;
+    background-color: rgb(218, 156, 0);
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+#containersATags{
+    margin-left: 7%;
+    gap: 90px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.options_buttons{
+    gap: 15px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+a{
+    font-size: 11pt;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(209, 202, 184);
+}
+
+#beneficios{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 180px;
+  color: rgb(56, 44, 68);
+  position: relative;
+  font-weight: bolder;
+  font-size: 11pt;
+}
+
+.ben{
+  margin-top: 10px;
+}
+
+.container_footer {
+  top: 175%;
+  background-color: rgb(56, 44, 68);
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 400px;
+  position:absolute;
+  bottom:0;
+}
+
+#sections {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-left: 200px;
+}
+
+#section1,
+#section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+  font-size: 11pt;
+  margin-bottom: 100px;
+}
+
+h1 {
+  font-size: 14pt;
+}
+
+#img2_logoFooter {
+  width: 120px;
+}
+
+#sectionFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 350px;
+  color: white;
+  margin-bottom: 100px;
+  margin-left: 200px;
+}
+
+p {
+  font-size: 11pt;
+}
+
+.imagensFooter {
+  width: 15px;
+  height: 15px;
+  padding: 10px;
+}
+
+.imagensContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  height: 32px;
+  width: 32px;
+  background-color: rgb(79, 67, 92);
+}
+.socialMediaContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}

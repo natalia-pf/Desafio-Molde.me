@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Molde.me - Vagas</title>
+    <link rel="stylesheet" href="paginaInicial.css" />
+  </head>
+  <body>
+    <!--CABEÇALHO STICKY SEGUINDO PADRÃO DO SITE DA MOLDE.ME-->
+    <div class="container_header">
+      <div class="container_body_header">
+        <img src="imagens/logofundobranco.png" id="img1_logoHeader" />
+        <div class="container_body_header_items">
+          <div class="containers_options">Quem Somos</div>
+          <div class="containers_options">Planos e Preços</div>
+          <div class="containers_options">Contato</div>
+          <div class="containers_options">Blog</div>
+          <div class="containers_options" style="font-weight: bold">Vagas</div>
+          <div class="containers_options">Central de Ajuda</div>
+        </div>
+        <div class="container_body_header_buttons">
+          <input type="button" id="buttonLogin" value="Login" />
+          <input type="button" id="buttonTest" value="TESTE GRÁTIS" />
+        </div>
+      </div>
+    </div>
+
+    <!--CORPO DA PAGINA, MOSTRAR VAGAS-->
+
+    <section id="full_body">
+        <section id="showMessage">
+
+            <div style="font-weight: bold; font-size: 15pt;">VAGAS ABERTAS</div>
+            <div id="underTitle">Escolha uma vaga que combine com seu perfil e venha fazer parte da nossa equipe!</div>
+
+        </section>
+
+        <section id=vagas>
+            <div id="categorias">
+                <h2>Administração</h2>
+                <h2>Engenharia</h2>
+                <h2>Marketing</h2>
+                <h2>Design</h2> 
+            </div>
+
+            <div class="empty"></div>
+
+            <div id="containersATags">
+                <div class="options_buttons">
+                    <a href="paginaForm.html" value="adm1" class="option" onclick="nomeDaVaga()">Auxiliar administrativo Jaraguá do Sul - SC</a>
+                    <a href="paginaForm.html" value="adm2" class="option">Gestão de qualidade Jaraguá do Sul - SC</a>
+                    <a href="paginaForm.html" value="adm3" class="option">Administração de RH São Paulo - SP</a>
+                </div>
+
+                <div class="options_buttons">
+                    <a href="paginaForm.html" value="dev1" class="option">Estágio front-end Joinville - SC</a>
+                    <a href="paginaForm.html" value="dev2" class="option">Estágio back-end Jaraguá do Sul - SC</a>
+                    <a href="paginaForm.html" value="dev3" class="option">Desenvolvedor pleno Lisboa - Portugal</a>
+                    <a href="paginaForm.html" value="dev4" class="option">Implantador do Sistema Jaraguá do Sul - SC</a>
+                </div>
+
+                <div class="options_buttons">
+                    <a href="paginaForm.html" value="marketing1" class="option">Chefe de marketing Jaraguá do Sul - SC</a>
+                    <a href="paginaForm.html" value="marketing2" class="option">Assistente de marketing Joinville - SC</a>
+                </div>
+
+                <div class="options_buttons">
+                    <a href="paginaForm.html" value="design1" class="option">Designer gráfico Jaraguá do Sul - SC</a>
+                </div>
+        
+            </div>
+
+        </section> 
+
+        <div id="beneficios">
+          <p class="ben">Nossas vagas contam com diversos benefícios que tornam sua experiencia conosco agradável e justa,</p>
+          <p class="ben">sendo alguns deles: cozinha abastecida e aberta para todos os funcionários e massagem no escritório semanalmente!</p>
+          <p class="ben">Além disso também oferecemos plano de saúde, plano odontológico, vale alimentação e rotina de trabalho híbrida para seu conforto.</p>
+        </div>
+
+    </section>
+
+
+
+
+    <!--RODAPÉ SEGUINDO PADRÃO DO SITE DA MOLDE.ME-->
+    <footer class="container_footer">
+      <section id="sectionFooter">
+        <img src="imagens/logo_moldeme.png" id="img2_logoFooter" />
+
+        <p>© 2020 Molde.me. Todos os direitos reservados Jaraguá do Sul - SC</p>
+
+        <div class="socialMediaContainer">
+          <div class="imagensContainer">
+            <img src="imagens/inlogo.png" class="imagensFooter" />
+          </div>
+          <div class="imagensContainer">
+            <img
+              src="imagens/instagram_logo_icon_181283.png"
+              class="imagensFooter"
+            />
+          </div>
+          <div class="imagensContainer">
+            <img src="imagens/youtube logo.png" class="imagensFooter" />
+          </div>
+          <div class="imagensContainer">
+            <img src="imagens/tiktoklogo.png" class="imagensFooter" />
+          </div>
+          <div class="imagensContainer">
+            <img src="imagens/pinterestlogo.png" class="imagensFooter" />
+          </div>
+        </div>
+      </section>
+
+      <div id="sections">
+        <section id="section1">
+          <h1>Empresa</h1>
+          <a>Sobre nós</a>
+          <a>Blog</a>
+          <a>Contato</a>
+          <a>Preços</a>
+          <a>Trabalhe conosco</a>
+        </section>
+
+        <section id="section2">
+          <h1>Suporte</h1>
+          <a>Central de ajuda</a>
+          <a>Termos de serviço</a>
+          <a>Política de privacidade</a>
+          <a>Perguntas frequentes</a>
+        </section>
+      </div>
+    </footer>
+    <script src="paginasScript.js"></script>
+  </body>
+</html>

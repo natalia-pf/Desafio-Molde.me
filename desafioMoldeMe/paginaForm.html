@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Molde.me - Formuulário</title>
+    <link rel="stylesheet" href="paginaForm.css" />
+  </head>
+  <body>
+    
+    <!--MODAL DE MENSAGEM-->
+    <div id="modalContainer">
+      <div id="conteudoModal">
+
+          
+          <h1>Formulário enviado com sucesso!</h1>
+          <p id="restoTexto">Agora é só torcer e esperar a nossa equipe entrar em contato para prosseguirmos com</p>
+          <p>o processo seletivo.</p>
+          <p>A Molde.me agradece sua participação e interesse.</p>
+          
+          <input type="button" value="Finalizar Entrega" id="closeModal" onclick="closeModal()">
+      </div>
+    </div>
+
+
+    <!--CABEÇALHO STICKY SEGUINDO PADRÃO DO SITE DA MOLDE.ME-->
+    <div class="container_header">
+      <div class="container_body_header">
+        <img src="imagens/logofundobranco.png" id="img1_logoHeader" />
+        <div class="container_body_header_items">
+          <div class="containers_options">Quem Somos</div>
+          <div class="containers_options">Planos e Preços</div>
+          <div class="containers_options">Contato</div>
+          <div class="containers_options">Blog</div>
+          <div class="containers_options" style="font-weight: bold">Vagas</div>
+          <div class="containers_options">Central de Ajuda</div>
+        </div>
+        <div class="container_body_header_buttons">
+          <input type="button" id="buttonLogin" value="Login" />
+          <input type="button" id="buttonTest" value="TESTE GRÁTIS" />
+        </div>
+      </div>
+    </div>
+
+    <!--CORPO DA PAGINA, MOSTRAR VAGAS-->
+    <div id="containerTitle">
+        <h2 id="nomeVaga">Formulário para vaga na Molde.me</h2>
+        <p>Bem vindo a primeira etapa de nosso processo seletivo! Verifique se você atende os requisitos mínimos e preencha os dados baixo para analisarmos seu perfil.</p>
+    <!-- </div>  -->
+
+      <div id="reqsInfos">
+      <div id="requisitosFuncao">
+        <h3 style="font-weight:bold;">Requisitos:</h3> 
+        <p class="reqs1">Estar cursando/ter finalizado um curso na área</p>  
+        <p class="reqs2">Proatividade</p>   
+        <p class="reqs3">Organização</p>  
+      </div>
+      
+     <div id="infos">
+       <h3>Mais informações sobre as vagas:</h3>
+       <p class="info1">Jornada de 8h diárias</p>  
+       <p class="info2">Plano de saúde incluso</p>   
+       <p class="info3">Vale alimentação</p>  
+     </div>        
+      </div>
+
+    </div>
+
+
+    <section id="formBody">
+        <form id="myForm">
+            <fieldset>
+              <div id="organize">
+                <div class="formRows">
+                  
+                  <div class="labelInputItems">
+                    <label for="fullName">Nome Completo</label>
+                    <input type="text" name="fullName" id="fullName" class="formInputs">                    
+                  </div>
+
+                  <div class="labelInputItems">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" class="formInputs"> </br>                                    
+                  </div>
+             
+                </div>
+
+                <div class="formRows">
+
+                  <div class="labelInputItems">
+                    <label for="birthday">Aniversário</label>
+                    <input type="date" name="birthday" id="birthday" class="formInputs" required>                                 
+                  </div>
+
+                  <div class="labelInputItems">
+                    <label for="number">Número de telefone</label>
+                    <input type="text" name="number" id="number" pattern="[0-9]+" class="formInputs" required></br>        
+                  </div>
+             
+                </div>
+
+                <div class="formRows">
+
+                  <div class="labelInputItems">
+                    <label for="message">Fale um pouco sobre você</label>
+                    <textarea rows="5" name="message" id="message" class="formInputs" required></textarea> 
+                  </div>
+
+                  <div class="labelInputItems">
+                    <label for="cv" id="labelFile">Anexe seu currículo </br><input type="file" accept=".pdf" name="cv" id="cv" required> </label>
+                           
+                  </div>
+          
+                </div>
+
+                <div class="formRows">
+
+                  <input type="submit" id="submitForm" value="Enviar Formulário">
+
+                </div>
+
+              </div>
+            </fieldset>
+        </form>
+    </section>
+
+
+
+
+    <!--RODAPÉ SEGUINDO PADRÃO DO SITE DA MOLDE.ME-->
+    <footer class="container_footer">
+      <section id="sectionFooter">
+        <img src="imagens/logo_moldeme.png" id="img2_logoFooter" />
+
+        <p>© 2020 Molde.me. Todos os direitos reservados Jaraguá do Sul - SC</p>
+
+        <div class="socialMediaContainer">
+          <div class="imagensContainer">
+            <img src="imagens/inlogo.png" class="imagensFooter" />
+          </div>
+          <div class="imagensContainer">
+            <img
+              src="imagens/instagram_logo_icon_181283.png"
+              class="imagensFooter"
+            />
+          </div>
+          <div class="imagensContainer">
+            <img src="imagens/youtube logo.png" class="imagensFooter" />
+          </div>
+          <div class="imagensContainer">
+            <img src="imagens/tiktoklogo.png" class="imagensFooter" />
+          </div>
+          <div class="imagensContainer">
+            <img src="imagens/pinterestlogo.png" class="imagensFooter" />
+          </div>
+        </div>
+      </section>
+
+      <div id="sections">
+        <section id="section1">
+          <h1>Empresa</h1>
+          <a>Sobre nós</a>
+          <a>Blog</a>
+          <a>Contato</a>
+          <a>Preços</a>
+          <a>Trabalhe conosco</a>
+        </section>
+
+        <section id="section2">
+          <h1>Suporte</h1>
+          <a>Central de ajuda</a>
+          <a>Termos de serviço</a>
+          <a>Política de privacidade</a>
+          <a>Perguntas frequentes</a>
+        </section>
+      </div>
+    </footer>
+    <script src="paginasScript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&display=swap");
+
+#modalContainer{
+  background-color: rgba(0, 0, 0, 0.397);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.6s ease;
+}
+
+#restoTexto{
+  margin-bottom: -10px;
+}
+
+#modalMessage{
+  justify-content: center;
+  font-weight: normal;
+  font-size:  11pt;
+}
+
+#closeModal{
+  margin-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  height: 40px;
+  border-radius: 0;
+  background-color: rgb(218, 156, 0);
+  border-radius: 5px;
+  border: 0;
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+
+#closeModal:hover{
+  background-color: rgb(237, 170, 2);
+}
+
+#conteudoModal{
+  background-color: white;
+  border-radius: 5px;
+  width: 700px;
+  height: 300px;
+  margin-top: 100px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;  
+}
+
+.container_header {
+  top: 0;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container_body_header {
+  display: flex;
+  margin: 2rem 1rem;
+}
+
+.container_body_header_items {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem;
+}
+
+.container_body_header_buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+body {
+  background-image: url("imagens/fundoPrincipal.png");
+  top: 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+#img1_logoHeader {
+  width: 180px;
+  margin-right: 20px;
+}
+
+#buttonLogin {
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 40px;
+  border-radius: 0;
+  background-color: white;
+  border: 1px solid;
+  border-color: rgb(182, 182, 182);
+  color: rgb(182, 182, 182);
+  font-family: "Montserrat", sans-serif;
+}
+
+#buttonTest {
+  padding-right: 15px;
+  padding-left: 15px;
+  height: 40px;
+  border-radius: 0;
+  background-color: rgb(218, 156, 0);
+  border: 0;
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+}
+
+#containerTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 100px;
+}
+
+#reqsInfos{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-right: 70px;
+}
+
+#infos{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+ 
+}
+
+#requisitosFuncao{
+  flex-direction: column;
+  display: flex;
+  align-items: flex-end;
+}
+
+.reqs1, .reqs2, .reqs3, .info1, .info2, .info3{
+  margin-top: -10px;
+}
+
+#formBody{
+  width: 90%;
+  border-radius: 4px;
+  background-color: white;
+  height: 500px;
+  margin-left: 4%;
+  margin-top: 10px;
+  display: flex;
+  flex: column;
+  justify-content: center;
+}
+
+form{
+   margin-top: 3.5%;
+   width: 90%;
+   height: 400px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 30px;
+}
+
+fieldset{
+  border: 0;
+}
+
+.formInputs{
+  background-color: rgb(240, 240, 240);
+  border: 1px solid;
+  border-radius: 2px;
+  border-color: rgb(218, 218, 218);
+  color:rgb(82, 82, 82);
+  width: 305px;
+  height: 45px;
+  padding: 10px;
+}
+/* 
+input[type='file'] {
+  
+} */
+
+#labelFile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid;
+  border-color: rgb(218, 218, 218);
+  background-color: rgb(240, 240, 240);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  gap: 10px;
+}
+
+.formRows{
+  display: flex;
+  gap: 20px;
+} 
+
+#organize{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.labelInputItems{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#submitForm{
+  padding-right: 15px;
+  padding-left: 15px;
+  height: 40px;
+  border-radius: 0;
+  background-color: rgb(218, 156, 0);
+  border: 0;
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+
+#submitForm:hover{
+  background-color: rgb(237, 170, 2);
+}
+
+.formInputs:hover, .labelFile:hover, #labelFile:hover, .formInputs:focus, .labelFile:hover, #labelFile:hover{
+  background-color: rgb(223, 223, 223);
+}
+
+.container_footer {
+  top: 140%;
+  background-color: rgb(56, 44, 68);
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 400px;
+  position:absolute;
+  bottom:0;
+}
+
+#sections {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-left: 200px;
+}
+
+#section1, #section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+  font-size: 11pt;
+  margin-bottom: 100px;
+}
+
+h1 {
+  font-size: 14pt;
+}
+
+#img2_logoFooter {
+  width: 120px;
+}
+
+#sectionFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 350px;
+  color: white;
+  margin-bottom: 100px;
+  margin-left: 200px;
+}
+
+p {
+  font-size: 11pt;
+}
+
+.imagensFooter {
+  width: 15px;
+  height: 15px;
+  padding: 10px;
+}
+
+.imagensContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  height: 32px;
+  width: 32px;
+  background-color: rgb(79, 67, 92);
+}
+.socialMediaContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
